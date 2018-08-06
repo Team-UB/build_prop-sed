@@ -1,3 +1,7 @@
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
+ro.product.model=SM-G965F
+ro.product.brand=samsung
+ro.product.name=star2ltexx
+ro.product.device=star2lte
+ro.product.manufacturer=samsung
+ro.build.description=star2ltexx-user 8.0.0 R16NW G965FXXU1BRF8 release-keys
+ro.build.fingerprint=samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys
