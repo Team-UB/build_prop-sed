@@ -15,3 +15,13 @@ for mod in update-build.prop;
     done
 done
 
+
+for mod in update-prop.default;
+  do
+
+    for prop in `cat /tmp/$mod`;do
+      export newprop=$(echo ${prop} | cut -d '=' -f1)
+      sed -i "/${newprop}/d" /system/prop.default
+      echo $prop >> /system/prop.default
+    done
+done
